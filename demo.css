@@ -49,3 +49,17 @@ footer {
   padding-top: 20px;
   color: rgb(211, 218, 240);
 }
+.cards {
+  display: flex;
+  flex-wrap: wrap; /* Allows cards to wrap onto multiple lines */
+  justify-content: center; /* Center the cards */
+  gap: 20px; /* Space between the cards */
+}
+.card {
+  flex: 1 1 300px; /* Each card takes up at least 300px, but can grow */
+}
+.card img {
+  max-width: 100%; /* Image scales down to fit container */
+  height: auto;
+  display: block; /* Prevents image from creating extra space */
+}
